@@ -1,0 +1,12 @@
+{
+  title: "Task Tracker",
+  home: {
+    heading: "",
+    paragraphs: [
+      { text: "This is a task tracker" },
+    ]
+  },
+  footer: {
+    text: "© 2025 Ana Wagner"
+  }
+}

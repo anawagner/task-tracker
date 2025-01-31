@@ -1,0 +1,12 @@
+{
+  photos: [
+    {
+      filename: "done.png",
+      link: "https://www.flaticon.com/free-icons/done",
+      by: {
+        name: "HideMaru",
+        link: "https://www.flaticon.com/free-icons/done",
+      },
+    },
+  ],
+}
