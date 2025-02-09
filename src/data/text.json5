@@ -1,9 +1,16 @@
 {
-  title: "Task Tracker",
+  title: "Document Title",
   home: {
-    heading: "",
+    heading: "Section Heading",
     paragraphs: [
-      { text: "This is a task tracker" },
+      { text: "Mobile friendly programmatically, so let's pressure test this, so if you could do that, that would be great. Prethink back to the drawing-board, so curate, for please use \"solutionise\" instead of solution ideas! :), yet dog and pony show, for i don't want to drain the whole swamp, i just want to shoot some alligators, for rehydrate the team. T-shaped individual obviously, nor diversify kpis gain traction. Prepare yourself to swim with the sharks corporate synergy. Baseline the procedure and samepage your department quick sync, so let's unpack that later gain traction, and tbrand terrorists. Can we jump on a zoom can we parallel path, radical candor, nor mumbo jumbo, so viral engagement, and both the angel on my left shoulder and the devil on my right are eager to go to the next board meeting and say weâ€™re ditching the business model, and roll back strategy." },
+      { text: "Make it look like digital ultimate measure of success, and are we in agreeance. Guerrilla marketing 60% to 30% is a lot of persent. Can you ballpark the cost per unit for me what the please advise soonest, and pushback. Pulling teeth business impact prairie dogging, and clear blue water, nor shoot me an email, and i also believe it's important for every member to be involved and invested in our company and this is one way to do so. We need to have a Come to Jesus meeting with Phil about his attitude dunder mifflin, nor hire the best, for golden goose fire up your browser game plan, or looks great, can we try it a different way. Spinning our wheels that's not on the roadmap, so pull in ten extra bodies to help roll the tortoise. High-level. Ramp up all hands on deck, for if you could do that, that would be great incentivize adoption, player-coach dear hiring manager:. Upstream selling tread it daily, nor roll back strategy circle back big data product launch. Cloud strategy."}
+    ]
+  },
+  about: {
+    heading: "About Me",
+    paragraphs: [
+      { text: "Mobile friendly programmatically, so let's pressure test this, so if you could do that, that would be great. Prethink back to the drawing-board, so curate, for please use \"solutionise\" instead of solution ideas! :), yet dog and pony show, for i don't want to drain the whole swamp, i just want to shoot some alligators, for rehydrate the team. T-shaped individual obviously, nor diversify kpis gain traction. Prepare yourself to swim with the sharks corporate synergy. Baseline the procedure and samepage your department quick sync, so let's unpack that later gain traction, and tbrand"},
     ]
   },
   footer: {

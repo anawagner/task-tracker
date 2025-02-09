@@ -1,6 +1,6 @@
 import './styles/main.css';
 import './styles/reset.css';
-import { HeaderComponent, NavigationComponent } from './components/header';
+import { HeaderComponent, NavigationComponent } from './components/Header/header';
 import HomeComponent from './components/home';
 import FooterComponent from './components/footer';
 import text from './data/text.json5';

@@ -11,7 +11,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/templates/main.html',
-      favicon: './src/assets/icon.png'
+      favicon: './src/assets/done.png'
     }),
   ],
   module: {
@@ -23,24 +23,24 @@ module.exports = {
           "css-loader"
         ]
       },
-      {
-        test: /\.(png|jpe?g|gif|svg)$/i,
-        type: 'asset/resource',
-        include: path.resolve(__dirname, 'src/assets/images'),
-      },
-      {
-        test: /\.(png|jpe?g|gif|svg)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'images/' // output to dist/images/
-            }
-          }
-        ],
-        include: path.resolve(__dirname, 'src/menu/images'),
-      },
+      // {
+      //   test: /\.(png|jpe?g|gif|svg)$/i,
+      //   type: 'asset/resource',
+      //   include: path.resolve(__dirname, 'src/assets/images'),
+      // },
+      // {
+      //   test: /\.(png|jpe?g|gif|svg)$/i,
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //       options: {
+      //         name: '[name].[ext]',
+      //         outputPath: 'images/' // output to dist/images/
+      //       }
+      //     }
+      //   ],
+      //   include: path.resolve(__dirname, 'src/assets/images'),
+      // },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',

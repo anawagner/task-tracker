@@ -1,25 +1,29 @@
 :root {
-  --main-color: #ccc;
-  --text-color-light: lightslategray;
-  --text-color-dark: #333333;
-  --accent-color: #afe1af;
-  --background-color: #f5f5f5;
-  --title-color: darkgreen;
-  --nav-color: rgba(50,50,50,0.8);
+  --near-white: #F2F2F2;
+  --near-black: #222222;
+  --dark: #332e29;
+  --less-dark: #524941;
+  --dark-color: #263566;
+  --accent: #a53860;
+  --nuetral-accent: #cc816c;
+  --light: #f2e6da;
+  --less-light: #dec8b1;
 }
 
-@font-face {
-  font-family: 'Italiana';
-  src: url(../assets/fonts/Italiana/Italiana-Regular.ttf) format('truetype');
+a {
+  color: var(--main-color);
+  text-decoration: none;
+  cursor: pointer;
 }
+
 body {
-  font-family: 'Italiana', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: var(--background-color);
   color: var(--text-color-dark);
   display: flex;
   flex-direction: column;
 }
-
+/* 
 body>* {
   padding: 1rem;
 }
@@ -31,41 +35,9 @@ h2 {
   margin-bottom: 1rem;
 }
 
-a {
-  color: var(--main-color);
-  text-decoration: none;
-  cursor: pointer;
-}
 
-.nav {
-  background-color: var(--nav-color);
-  width: fit-content;
-  border-radius: 0.5rem;
-  padding: 5px;
-}
 
-.nav ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  gap: 0.5rem;
-  padding: 0;
-}
 
-.nav a {
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
-  color: #fff;
-  font-weight: bold;
-}
-.nav li {
-  border-bottom: rgba(0,0,0,0) 2px solid;
-}
-
-.nav li:hover {
-  border-bottom: var(--accent-color) 2px solid;
-}
 
 .field {
   display: flex;
@@ -110,6 +82,7 @@ button {
 }
 
 /* Reserve form */
+/* 
 .reserve>form {
   display: flex;
   flex-direction: column;
@@ -141,4 +114,4 @@ button {
   flex-direction: row;
   justify-content: space-between;
   align-items: top;
-}
+} */ 
