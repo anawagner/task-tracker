@@ -4,6 +4,9 @@
 
 <!-- Make the lists rearangable  -->
 <!-- https://www.youtube.com/watch?v=jfYWwQrtzzY -->
+<!-- >git remote set-url origin git@github.com-personal:myuser/myrepo.git -->
+
+<!-- https://anthonyhobday.com/sideprojects/saferules/ -->
 
 ## Steps / Requirements
 
@@ -53,12 +56,7 @@ assign users to tasks
 and show tasks assigned to user, filter by user "my tasks"
 add tags to tasks
 add subtasks to tasks (check list within a task)
-<!-- 
-inspiration
-https://clarasmyth.github.io/todo-list/ 
-https://bscottnz.github.io/todo/
-https://shozuu.github.io/todo-list/
--->
+
 
 # deployment steps
 
