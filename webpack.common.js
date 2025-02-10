@@ -23,11 +23,11 @@ module.exports = {
           "css-loader"
         ]
       },
-      // {
-      //   test: /\.(png|jpe?g|gif|svg)$/i,
-      //   type: 'asset/resource',
-      //   include: path.resolve(__dirname, 'src/assets/images'),
-      // },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: 'asset/resource',
+        include: path.resolve(__dirname, 'src/assets'),
+      },
       // {
       //   test: /\.(png|jpe?g|gif|svg)$/i,
       //   use: [

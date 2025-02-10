@@ -1,0 +1,32 @@
+
+footer {
+  background-color: var(--less-light);
+  color: var(--main-color);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+footer img {
+  display: inline;
+  max-height: 32px;
+  padding: 0 0.25rem;
+}
+
+.close-button > a{
+  color: var(--accent-color);
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+.byline {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}

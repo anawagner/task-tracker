@@ -1,0 +1,24 @@
+.credit-item > a {
+  color: var(--less-light);
+}
+
+.credit-item > a:hover {
+  color: var(--light);
+}
+
+.credit {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: fit-content;
+  background-color: var(--main-color);
+  color: var(--light);
+  padding: 0.5rem 1rem;
+  border-top-left-radius: 0.5rem;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: top;
+}

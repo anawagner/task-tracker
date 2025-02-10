@@ -1,6 +1,6 @@
 .nav {
-  background-color: var(--nav-color);
-  width: fit-content;
+  width: 100%;
+  padding: 0 2rem;
 }
 
 .nav ul {
@@ -24,4 +24,15 @@
 
 .nav li:hover {
   border-bottom: var(--accent-color) 2px solid;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  background-color: var(--less-light);
+}
+
+.title {
+  padding: 0 2rem;
 }

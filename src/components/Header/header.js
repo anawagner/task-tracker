@@ -1,4 +1,5 @@
 import './header.css';
+
 const HeaderComponent = (title) => {
   const HeaderElement = document.createElement('header');
   const titleElement = document.createElement('h1');
