@@ -1,6 +1,6 @@
 
 footer {
-  background-color: var(--less-light);
+  background-color: var(--bg-overlay);
   color: var(--main-color);
   text-align: center;
   display: flex;

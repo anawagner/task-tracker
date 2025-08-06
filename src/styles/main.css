@@ -14,6 +14,8 @@
   --accent-color: #a53860;
   --background-color: #f2e9ed;
   --nav-color: #decccf;
+  --bg-overlay: rgba(255, 255, 255, 0.2);
+  --lighter-bg-overlay: rgba(255, 255, 255, 0.4);
 }
 
 a {
@@ -24,9 +26,9 @@ a {
 
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: var(--background-color);
+  background: linear-gradient(30deg, #D9AFD9 30%, #97D9E1 60%);
   color: var(--text-color-dark);
-  display: flex;
+  display: flex;  
   gap: 1.5rem;
   flex-direction: column;
 }
@@ -48,6 +50,10 @@ main {
   align-items: center;
   flex-direction: column;
   padding: 0 2rem;
+}
+
+main > div {
+  background-color: var(--bg-overlay);
 }
 
 /* body>* {
