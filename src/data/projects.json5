@@ -1,0 +1,17 @@
+[
+    {
+        "id": "default",
+        "name": "",
+        "description": "default project"
+    },
+    {
+        "id": "chores",
+        "name": "Chores",
+        "description": "things that need doing around the house"
+    },
+    {
+        "id": "work-project",
+        "name": "Work Project",
+        "description": "Important work project"
+    },
+]

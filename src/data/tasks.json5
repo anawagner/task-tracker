@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Laundry",
+        "description": "weekly laundry chore",
+        "dueDate": "2025-08-08",
+        "status": "to-do",
+        "priority": "high",
+        "project": "default"
+    },
+    {
+        "title": "Wash Dishes",
+        "description": "wash dishes after dinner",
+        "dueDate": "2025-08-08",
+        "status": "in-progress",
+        "priority": "medium",
+        "project": "default"
+    },
+     {
+        "title": "Weekly Meal Prep",
+        "description": "make foods for the week",
+        "dueDate": "2025-08-08",
+        "status": "complete",
+        "priority": "low",
+        "project": "default"
+    },
+]
